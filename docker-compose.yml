@@ -1,7 +1,7 @@
 services:
   db:
     # image: mysql:9-oracle
-    image: arm64v8/mysql:9-oracle
+    image: mysql:9-oracle
     volumes:
       - ./db_data:/var/lib/mysql
     restart: always
